@@ -5,16 +5,14 @@
 int
 main(int argc, char *argv[])
 {
-  // int i;
+	if(argc != 2){
+		fprintf(2, "Usage: sleep seconds...\n");
+		exit(1);
+	}
 
-  if(argc < 2){
-    fprintf(2, "Usage: sleep <number of ticks>>\n");
-    exit(1);
-  }
-
-	// Get the command line argument
-	// Convert it from string to int
-	// Sleep for desired duration
-
-  exit(0);
+	// Get the command line argument, convert it from string to int
+	// and sleep for desired duration
+	sleep(atoi(argv[1]));
+	// Graceful exit
+	exit(0);
 }
