@@ -71,6 +71,10 @@ main(int argc, char *argv[])
 		}
 	}
 
+	// Let's not forget to close the open file descriptors
+	close(fds[0]);
+	close(fds[1]);
+
 	// Graceful exit
 	exit(0);
 }
