@@ -1,0 +1,4 @@
+make: 'kernel/kernel' is up to date.
+== Test find, in current directory == find, in current directory: OK (1.2s) 
+== Test find, in sub-directory == find, in sub-directory: OK (1.1s) 
+== Test find, recursive == find, recursive: OK (1.0s) 

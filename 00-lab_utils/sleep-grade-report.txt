@@ -1,0 +1,4 @@
+make: 'kernel/kernel' is up to date.
+== Test sleep, no arguments == sleep, no arguments: OK (1.3s) 
+== Test sleep, returns == sleep, returns: OK (1.0s) 
+== Test sleep, makes syscall == sleep, makes syscall: OK (1.0s) 
